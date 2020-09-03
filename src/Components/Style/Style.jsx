@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const StyledNavBar = styled.div`
+export const StyledNavBarLogo = styled.div`
     display: flex;
     justify-content: center;
     padding: 50px 0;
 
     .wrapper {
-        width: 45vh;
+        width: 25vh;
     }
 
     polyline,
@@ -53,14 +53,13 @@ export const StyledNavBar = styled.div`
     .st1 {
         fill: none;
         stroke: #000;
-        stroke-width: 7;
+        stroke-width: 9;
         stroke-miterlimit: 10;
     }
 
     .st2 {
         fill: none;
         stroke: #000;
-
         stroke-width: 6;
         stroke-miterlimit: 10;
     }
@@ -88,7 +87,7 @@ export const StyledJmendoza = styled.div`
         stroke-miterlimit: 10;
     }
     .wrapper {
-        width: 50%;
+        width: 35%;
     }
 
     path {

@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
+import NavbarLogo from "./Components/NavbarLogo/NavbarLogo";
 import Project from "./Components/Projects/Projects";
 import Jmendoza from "./Components/Jmendoza/Jmendoza";
 
 function App() {
     return (
         <div>
-            <Navbar />
+            <NavbarLogo />
             <Jmendoza />
             <Project />
         </div>

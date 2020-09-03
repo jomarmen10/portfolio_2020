@@ -1,9 +1,9 @@
 import React from "react";
-import { StyledNavBar } from "../Style/Style";
+import { StyledNavBarLogo } from "../Style/Style";
 
-function Navbar() {
+function NavbarLogo() {
     return (
-        <StyledNavBar>
+        <StyledNavBarLogo>
             <div class="wrapper">
                 <svg viewBox="0 0 369.23 408.79">
                     <polygon
@@ -35,8 +35,8 @@ function Navbar() {
                     />
                 </svg>
             </div>
-        </StyledNavBar>
+        </StyledNavBarLogo>
     );
 }
 
-export default Navbar;
+export default NavbarLogo;
