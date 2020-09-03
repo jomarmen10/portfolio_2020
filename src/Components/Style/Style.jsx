@@ -121,3 +121,9 @@ export const StyledJmendoza = styled.div`
         }
     }
 `;
+
+export const StyledProject = styled.div`
+    img {
+        width: 40%;
+    }
+`;
