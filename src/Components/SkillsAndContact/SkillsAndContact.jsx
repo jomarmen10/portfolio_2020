@@ -13,12 +13,15 @@ function SkillsAndContact() {
             <div>
                 <div>
                     <h4>Github</h4>
+                    <a href="https://github.com/jomarmen10" target="_blank">https://github.com/jomarmen10</a>
                 </div>
                 <div>
                     <h4>Email</h4>
+                    <a href="mailto:mendoza.jomar910@gmail.com">mendoza.jomar910@gmail.com</a>
                 </div>
                 <div>
                     <h4>Linkedin</h4>
+                    <a href="https://www.linkedin.com/in/jomar-mendoza" target="_blank">https://www.linkedin.com/in/jomar-mendoza</a>
                 </div>
             </div>
         </div>
