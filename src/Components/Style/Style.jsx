@@ -133,7 +133,7 @@ export const StyledProject = styled.div`
         border-bottom: 5px solid black;
         padding: 50px;
         p {
-            paddin: 0 28%;
+            padding: 0 28%;
         }
     }
 
@@ -151,4 +151,36 @@ export const StyledHeader = styled.div`
 
 export const StyledSkillAndContact = styled.div`
     background-image: linear-gradient(white, #999, #555);
+    padding: 50px 0 75px;
+    text-align: center;
+    
+    .skill-div {
+        text-transform:uppercase;
+        
+        p {
+            padding: 0 28%;
+        }
+    }
+
+    .contact-div {
+        margin: 100px 0;
+        display: flex;
+        justify-content: center;
+
+        h4 {
+            margin: 0;
+        }
+
+        a {
+            color: #555;
+        }
+    
+    }
+
+    .contact-cards {
+        width: 370px;
+        height: 200px;
+        background-color: white;
+        margin: 0 10px;
+    }
 `
