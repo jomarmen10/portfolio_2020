@@ -5,9 +5,9 @@ import { StyledProject } from "../Style/Style";
 function Project() {
     return (
         <StyledProject>
-            <div>
+            <div id="container">
                 {/* Featured project  */}
-                <div id='main'>
+                <div id='main' className="projects">
                     <div>
                         <img src="img/SuperMario.png" alt="Super Mario"/>
                     </div>
@@ -25,7 +25,7 @@ function Project() {
                     </div>
                 </div>
 
-                <div>
+                <div className="projects">
                     <div>
                         <img src="img/code-buddy.png" alt="CodeBuddy Demo"/>
                     </div>
@@ -43,7 +43,7 @@ function Project() {
                     </div>
                 </div>
 
-                <div>
+                <div className="projects">
                     <div>
                         <img src="img/real.png" alt="Real Estate Demo"/>
                     </div>
@@ -61,7 +61,7 @@ function Project() {
                     </div>
                 </div>
 
-                <div>
+                <div className="projects">
                     <div>
                         <img src="img/inta.png" alt="InstaClone Demo"/>
                     </div>
@@ -79,7 +79,7 @@ function Project() {
                     </div>
                 </div>
 
-                <div>
+                <div className="projects">
                     <div>
                         <img src="img/happy.png" alt="HappyHour Demo"/>
                     </div>
@@ -104,7 +104,7 @@ function Project() {
                     </div>
                 </div>
 
-                <div>
+                <div className="projects" id="project-last">
                     <div>
                         <img src="img/trace.png" alt="Trace Demo"/>
                     </div>

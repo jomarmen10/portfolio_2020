@@ -1,8 +1,10 @@
 import React from "react";
+import { StyledSkillAndContact } from "../Style/Style";
+
 
 function SkillsAndContact() {
     return(
-        <div>
+        <StyledSkillAndContact>
             {/* skills */}
             <div>
                 <h2>Skills</h2>
@@ -24,7 +26,7 @@ function SkillsAndContact() {
                     <a href="https://www.linkedin.com/in/jomar-mendoza" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/jomar-mendoza</a>
                 </div>
             </div>
-        </div>
+        </StyledSkillAndContact>
     )
 }
 

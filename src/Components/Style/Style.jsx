@@ -123,12 +123,32 @@ export const StyledJmendoza = styled.div`
 `;
 
 export const StyledProject = styled.div`
+    text-align: center;
+
     img {
         width: 40%;
     }
+
+    .projects {
+        border-bottom: 5px solid black;
+        padding: 50px;
+        p {
+            paddin: 0 28%;
+        }
+    }
+
+    #project-last {
+        border-bottom: 0;
+    }
+
+
 `;
 
 
 export const StyledHeader = styled.div`
-    background-color: white;
+    background-image: linear-gradient(#555, #999, white);
+`
+
+export const StyledSkillAndContact = styled.div`
+    background-image: linear-gradient(white, #999, #555);
 `
