@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledNavBarLogo = styled.div`
     display: flex;
     justify-content: center;
-    padding: 50px 0;
+    padding: 150px 0 50px;
 
     .wrapper {
         width: 25vh;
@@ -75,7 +75,7 @@ export const StyledNavBarLogo = styled.div`
 export const StyledJmendoza = styled.div`
     display: flex;
     justify-content: center;
-    padding: 50px 0;
+    padding: 50px 0 25%;
 
     .st0 {
         fill: none;
@@ -127,3 +127,8 @@ export const StyledProject = styled.div`
         width: 40%;
     }
 `;
+
+
+export const StyledHeader = styled.div`
+    background-color: white;
+`
