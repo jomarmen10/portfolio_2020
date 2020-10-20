@@ -166,7 +166,7 @@ export const StyledSkillAndContact = styled.div`
         margin: 100px 0;
         display: flex;
         justify-content: center;
-
+        position: relative
         h4 {
             margin: 0;
         }
@@ -178,9 +178,16 @@ export const StyledSkillAndContact = styled.div`
     }
 
     .contact-cards {
-        width: 370px;
-        height: 200px;
+        border-radius: 25px;
+        width: 330px;
+        height: 180px;
         background-color: white;
         margin: 0 10px;
+        
+        position: relative;
+    }
+
+    .inner-container {
+        padding-top: 8%;
     }
 `
