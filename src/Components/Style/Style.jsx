@@ -135,6 +135,25 @@ export const StyledProject = styled.div`
         p {
             padding: 0 28%;
         }
+
+        button {
+            margin: 10px;
+            padding: 15px;
+            border-radius: 25px;
+            border-color: #555;
+
+            a {
+                color: #555;
+            }
+        }
+
+        button:hover {
+            background-color: gray;
+
+            a{
+                color: white
+            }
+        }
     }
 
     #project-last {
