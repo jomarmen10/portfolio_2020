@@ -1,5 +1,20 @@
 import styled from "styled-components";
 
+export const StyledNavBar = styled.div`
+    .navbar {
+        position: fixed;
+        text-align: right;
+        width: 100%;
+        // background-color: black;
+        color: white;
+
+        li {
+            display: inline; 
+            padding: 20px;
+        }
+    }
+`
+
 export const StyledNavBarLogo = styled.div`
     display: flex;
     justify-content: center;
