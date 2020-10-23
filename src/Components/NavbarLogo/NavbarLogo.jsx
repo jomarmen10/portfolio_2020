@@ -4,7 +4,7 @@ import { StyledNavBarLogo } from "../Style/Style";
 function NavbarLogo() {
     return (
         <StyledNavBarLogo>
-            <div class="wrapper">
+            <div className="wrapper">
                 <svg viewBox="0 0 369.23 408.79">
                     <polygon
                         class="st0"

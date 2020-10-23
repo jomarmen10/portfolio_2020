@@ -129,38 +129,57 @@ export const StyledProject = styled.div`
         width: 40%;
     }
 
+    button {
+        color: white;
+        margin: 10px;
+        padding: 15px;
+        text-align: center;
+        border-style: solid;
+        border-radius: 25px;
+        border-color: #999;
+        background-color: #555;
+
+    }
+
+    button:hover {
+        background-color: #999;
+        border-color: #000;
+        cursor: pointer;
+        color: black;
+    }
+
+    .no-click {
+        color: white !important;
+        cursor: default !important;
+        background: #555 !important;
+        border-color: #999 !important;
+    }
+    
     .projects {
-        border-bottom: 5px solid black;
         padding: 50px;
+
         p {
             padding: 0 28%;
         }
-
-        button {
-            margin: 10px;
-            padding: 15px;
-            border-radius: 25px;
-            border-color: #555;
-
-            a {
-                color: #555;
-            }
-        }
-
-        button:hover {
-            background-color: gray;
-
-            a{
-                color: white
-            }
-        }
     }
 
-    #project-last {
-        border-bottom: 0;
+    .line-div {
+        margin-top: 40px;
+        width: 80%;
+        border: 2px black solid;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    // --------------Responsive design start--------------
 
+    @media (max-device-width:374px) 
+
+    }
+
+    @media (max-device-width:640px) {
+        Width: 100%
+    }
 `;
 
 
@@ -202,11 +221,19 @@ export const StyledSkillAndContact = styled.div`
         height: 180px;
         background-color: white;
         margin: 0 10px;
-        
         position: relative;
     }
 
     .inner-container {
         padding-top: 8%;
+    }
+
+    // --------------Responsive design start--------------
+
+    @media (max-device-width:764px) {
+        .contact-cards {
+            width: 270px;
+            height: 180px;
+        }
     }
 `
