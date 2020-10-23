@@ -4,7 +4,7 @@ import { StyledProject } from "../Style/Style";
 
 function Project() {
     return (
-        <StyledProject>
+        <StyledProject id="Project">
             <div id="container">
                 {/* Featured project  */}
                 <div id='main' className="projects">

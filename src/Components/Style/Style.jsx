@@ -5,13 +5,21 @@ export const StyledNavBar = styled.div`
         position: fixed;
         text-align: right;
         width: 100%;
-        // background-color: black;
-        color: white;
+        
+        a {
+            text-decoration: none !important;
+            color: #000
+        }
+
+        ul {
+            list-style-type: none;
+        }
 
         li {
-            display: inline; 
-            padding: 20px;
+            // display: inline; 
+            padding: 10px 20px 0 0;
         }
+
     }
 `
 

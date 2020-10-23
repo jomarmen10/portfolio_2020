@@ -4,30 +4,38 @@ import Project from "./Components/Projects/Projects";
 import Jmendoza from "./Components/Jmendoza/Jmendoza";
 import SkillsAndContact from "./Components/SkillsAndContact/SkillsAndContact";
 import Navbar from "./Components/Navbar/Navbar";
-import { StyledHeader } from './Components/Style/Style';
+import { StyledHeader, StyledNavBar } from './Components/Style/Style';
 
 class App extends Component {
 
 
     componentDidMount() {
         document.body.style.margin = "0";
-        window.addEventListener('scroll', this.handleScroll);
+        // document.addEventListener('scroll', this.handleScroll);
     }
 
-    handleScroll = () => {
-        console.log('hello')
-    }
+
+    // for project YOffset = 900
+    // for contact YOffset = 5193
+
+    // handleScroll = () => {
+
+    //     if(window.pageYOffset !== 0){
+    //         // window.pageYOffset = 0;
+    //     }
+    //     console.log(window.pageYOffset)
+    // }
 
     render() {
         return (
             <div>
-                <Navbar />
+                <Navbar/> 
                 <StyledHeader>
                     <NavbarLogo />
                     <Jmendoza />
                 </StyledHeader>
-                <Project />
-                <SkillsAndContact />
+                <Project/>
+                <SkillsAndContact/>
             </div>
         );
     }

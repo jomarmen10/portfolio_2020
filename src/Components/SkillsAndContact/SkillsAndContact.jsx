@@ -9,7 +9,7 @@ function SkillsAndContact() {
         <StyledSkillAndContact>
             <IconContext.Provider value={{ color: "#555", size: '2em'}}>
                 {/* skills */}
-                <div className='skill-div'>
+                <div className='skill-div' id="Contact">
                     <h2>Skills</h2>
                     <p>HTML | CSS | React | Javascript | Python3 | WordPress | SQL | NoSQL | Node.js | Express | MongoDB | Mongoose | Flask | Jquery | Postgres | SQLite | Socket.io | MERN | MVC | Git | Github | Heroku | Jinja | Materialize | CSSBootstrap | CSSStyled Components</p>
                 </div>
