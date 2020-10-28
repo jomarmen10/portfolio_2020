@@ -16,8 +16,15 @@ export const StyledNavBar = styled.div`
         }
 
         li {
-            // display: inline; 
+            display: inline; 
             padding: 10px 20px 0 0;
+        }
+
+        @media (max-device-width:768px) {
+            li {
+                display: block;
+                width: 100%;
+            }
         }
 
     }
@@ -143,6 +150,16 @@ export const StyledJmendoza = styled.div`
             stroke-dashoffset: 0;
         }
     }
+
+    // --------------Responsive design start--------------
+
+    @media (max-device-width:768px) {
+        .wrapper {
+            width: 60%;
+            // background-color: red;
+        }
+    }
+
 `;
 
 export const StyledProject = styled.div`
@@ -196,12 +213,16 @@ export const StyledProject = styled.div`
 
     // --------------Responsive design start--------------
 
-    @media (max-device-width:374px) 
-
+    @media (max-device-width:768px) {
+        img {
+            width: 60%;
+        }
     }
 
-    @media (max-device-width:640px) {
-        Width: 100%
+    @media (max-device-width:425px) {
+        img {
+            width: 80%;
+        }
     }
 `;
 
@@ -249,14 +270,41 @@ export const StyledSkillAndContact = styled.div`
 
     .inner-container {
         padding-top: 8%;
+        overflow: auto;
+        padding: 10px;
     }
 
     // --------------Responsive design start--------------
 
-    @media (max-device-width:764px) {
+    @media (max-device-width:768px) {
         .contact-cards {
-            width: 270px;
-            height: 180px;
+            width: 200px;
+            height: 170px;
+        }
+
+        h4 {
+            // font-size: 24px;
+        }
+
+        a {
+            display: inline-block;
+            width: 100%;
+            overflow-wrap: anywhere;
+        }
+    }
+
+    @media (max-device-width:425px) {
+
+        .contact-div {
+            display: block;
+            margin:20px;
+            di
+        }
+
+        .contact-cards {
+            margin: 10px;
+            width: 95%;
+
         }
     }
 `
