@@ -21,9 +21,12 @@ export const StyledNavBar = styled.div`
         }
 
         @media (max-device-width:768px) {
+            z-index: 1;
+            
             li {
                 display: block;
                 width: 100%;
+                // padding: 0;
             }
         }
 
@@ -156,7 +159,12 @@ export const StyledJmendoza = styled.div`
     @media (max-device-width:768px) {
         .wrapper {
             width: 60%;
-            // background-color: red;
+        }
+    }
+
+    @media (max-device-width:425px) {
+        .wrapper {
+            width: 80%
         }
     }
 
@@ -178,7 +186,6 @@ export const StyledProject = styled.div`
         border-radius: 25px;
         border-color: #999;
         background-color: #555;
-
     }
 
     button:hover {
@@ -214,12 +221,35 @@ export const StyledProject = styled.div`
     // --------------Responsive design start--------------
 
     @media (max-device-width:768px) {
+
+        button {
+            padding: 12px;
+            font-size:12px;
+        }
+
         img {
             width: 60%;
+        }
+
+        .projects {
+
+            h4 {
+                font-size: 18px;
+            }
+
+            p {
+                padding: 0 10%;
+                font-size: 12px;
+            }
         }
     }
 
     @media (max-device-width:425px) {
+
+        button {
+            padding: 10px;
+        }
+
         img {
             width: 80%;
         }
@@ -233,7 +263,7 @@ export const StyledHeader = styled.div`
 
 export const StyledSkillAndContact = styled.div`
     background-image: linear-gradient(white, #999, #555);
-    padding: 50px 0 75px;
+    padding: 10px 0;
     text-align: center;
     
     .skill-div {
@@ -245,7 +275,7 @@ export const StyledSkillAndContact = styled.div`
     }
 
     .contact-div {
-        margin: 100px 0;
+        margin: 50px 0;
         display: flex;
         justify-content: center;
         position: relative
@@ -277,6 +307,13 @@ export const StyledSkillAndContact = styled.div`
     // --------------Responsive design start--------------
 
     @media (max-device-width:768px) {
+
+        .skill-div {
+            p {
+                padding: 0 10%;
+            }
+        }
+
         .contact-cards {
             width: 200px;
             height: 170px;
@@ -295,14 +332,20 @@ export const StyledSkillAndContact = styled.div`
 
     @media (max-device-width:425px) {
 
+        .skill-div {
+            p {
+                padding: 0 12% 10%;
+                font-size: 14px;
+            }
+        }
+
         .contact-div {
             display: block;
             margin:20px;
-            di
         }
 
         .contact-cards {
-            margin: 10px;
+            margin: 15px 10px;
             width: 95%;
 
         }

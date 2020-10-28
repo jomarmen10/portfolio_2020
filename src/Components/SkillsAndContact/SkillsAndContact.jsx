@@ -11,7 +11,7 @@ function SkillsAndContact() {
                 {/* skills */}
                 <div className='skill-div' id="Contact">
                     <h2>Skills</h2>
-                    <p>HTML | CSS | React | Javascript | Python3 | WordPress | SQL | NoSQL | Node.js | Express | MongoDB | Mongoose | Flask | Jquery | Postgres | SQLite | Socket.io | MERN | MVC | Git | Github | Heroku | Jinja | Materialize | CSSBootstrap | CSSStyled Components</p>
+                    <p>HTML | CSS | React | Javascript | Python3 | WordPress | AWS | SQL | NoSQL | Node.js | Express | MongoDB | Mongoose | Flask | Jquery | Postgres | SQLite | Socket.io | MERN | MVC | Git | Github | Heroku | Jinja | Materialize | CSSBootstrap | CSSStyled Components</p>
                 </div>
 
                 {/* contact */}
